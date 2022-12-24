@@ -1,0 +1,19 @@
+Scalable Architexture Structure:
+Features 
+    - Taking all of the code for a certain feature and putting it into one place
+    - Can be used for stuff like settings, authentication, projects (pages)
+    - Almost like a mini source feature for each one of your features
+Layouts 
+    - For components that specifically deal with laying things out
+    - Something like a nav or a header / sidebar
+    - For stuff used in a lot of places
+Components
+    - For highly used small pieces of code
+Lib
+    - For 3rd party libraries
+    - You would want to use something like a fetch function here or something like axios
+Services
+    - Used for integrating with an API
+    - Somthing like sharing analytics
+Utils
+    - For functions like "formatDate" or "getTime"

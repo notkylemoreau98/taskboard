@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/kanban-task-management-web-app
 /.pnp
 .pnp.js
 

@@ -1,3 +1,4 @@
+import React from "react";
 import { EllipsisVerticalIcon, PlusIcon } from "@heroicons/react/24/solid";
 
 const Header = () => {
@@ -6,7 +7,7 @@ const Header = () => {
       <h2 className="font-semibold text-2xl">Platform Launch</h2>
 
       <div className="flex items-center">
-        <button class="btn-primary flex items-center">
+        <button className="btn-primary flex items-center">
           <PlusIcon className="h-4 w-4 mr-1" /> Add New Task
         </button>
 
